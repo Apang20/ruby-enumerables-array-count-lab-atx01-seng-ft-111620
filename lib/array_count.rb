@@ -15,4 +15,4 @@ def count_empty_strings(array)
 #total += 1 
 #end
 #total
-#end 
+end 

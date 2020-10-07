@@ -6,7 +6,8 @@ def count_strings(array, string)
 
 array.count do |string|
   array.class == string
-  
+  total +=1 
+end 
 end
 
 def count_empty_strings(array)

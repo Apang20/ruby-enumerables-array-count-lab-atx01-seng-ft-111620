@@ -4,7 +4,8 @@ def count_strings(array)
 #array.count do |element|
 #element.class == string 
 
-array.count(string)
+array.count do |string|
+  array == "string"
   
 end
 

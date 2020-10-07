@@ -4,7 +4,7 @@ def count_strings(array, string)
 #array.count do |element|
 #element.class == string 
 array.count do |element|
-element == string 
+element.string?
 end
 
 def count_empty_strings(array)
